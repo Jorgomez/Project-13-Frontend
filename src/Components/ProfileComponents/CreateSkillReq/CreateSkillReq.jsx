@@ -74,7 +74,7 @@ export const CreateSkillRequest = ({ currentUser }) => {
           className={'inputProfile'}
           labelText='Skill to Share:'
           inputName='skillToTeach'
-          placeholder='What would you like to learn?'
+          placeholder='What would you like to teach?'
           {...register('skillToTeach', validationSkill)}
           inputClassName={errors.skillToTeach ? 'input-error' : ''}
           errors={errors}
